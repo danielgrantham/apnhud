@@ -1,0 +1,37 @@
+html {
+  background: black;
+  font-family: 'Segoe UI';
+  color: #bfbfbf;
+}
+
+/* Task Panel */
+#leftPanel {
+  float: left;
+  width: 74%;
+  position: relative;
+}
+
+/* History Panel */
+#rightPanel {
+  float: right;
+  width: 25%;
+  border-color: #808080;
+  border-left-style: solid;
+}
+
+/* Includes text for 'Task' and 'History' */
+h1 {
+  font-weight: normal;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+/* Floating Action Button */
+#fab {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
